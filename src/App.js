@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import classNames from 'classnames/bind';
+import styles from './App.css';
+import Video from './Component/Video';
+import { VideoLink } from '~/Component/Data';
+
+const cx = classNames.bind(styles);
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className={cx('app')}>
+            <div className={cx('app__videos')}>
+                {VideoLink.map((item) => {
+                    return (
+                        <Video
+                            key={item.id}
+                            url={item.url}
+                            song={item.song}
+                            desc={item.desc}
+                            liked={item.liked}
+                            message={item.message}
+                            share={item.share}
+                        />
+                    );
+                })}
+            </div>
+        </div>
+    );
 }
 
 export default App;

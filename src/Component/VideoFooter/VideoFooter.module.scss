@@ -1,0 +1,109 @@
+.videoFooter {
+    position: relative;
+    color: white;
+    bottom: 140px;
+    margin-left: 10px;
+    display: flex;
+    font-size: 14px;
+}
+
+.videoFooter__text {
+    flex: 1;
+
+    h3 {
+        padding-bottom: 10px;
+    }
+
+    p {
+        padding-bottom: 10px;
+        width: 280px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.videoFooter__icon {
+    position: absolute;
+}
+
+.videoFooter__ticker {
+    display: flex;
+}
+
+.videoFooter__record {
+    animation: spinTheRecord infinite 5s linear;
+    height: 50px;
+    position: absolute;
+    bottom: 18px;
+    right: 10px;
+    filter: invert(1);
+}
+
+.videoFooter__tab-content {
+    position: relative;
+    color: white;
+    bottom: 140px;
+    flex: 0 0 auto;
+}
+.videoFooter__tab-content-wrapper {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    height: 49px;
+    background-color: #000;
+}
+
+.videoFooter__hometab-main-wrapper {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.styled-footer-items-link {
+    color: rgb(22, 24, 35);
+    display: flex;
+    position: relative;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 2px 8px 17px;
+    box-sizing: border-box;
+}
+
+.videoFooter__hometab-main {
+    position: absolute;
+    font-weight: 600;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    top: 32px;
+}
+
+.matrix-smart-wrapper {
+    .open-tiktok-icon {
+        width: 75px;
+        color: rgb(255, 255, 255);
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        position: absolute;
+        margin: 0 auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes spinTheRecord {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
