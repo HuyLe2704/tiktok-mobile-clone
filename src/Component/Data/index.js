@@ -46,7 +46,7 @@ export const VideoLink = [
     },
     {
         id: 6,
-        url: '/Video/Catdump.mp4',
+        url: '/tiktok-mobile-clone/Video/Catdump.mp4',
         desc: 'Funny_video1302',
         song: 'Backsound Komedi and Prank - Faid rafanda',
         liked: 540622,
@@ -55,7 +55,7 @@ export const VideoLink = [
     },
     {
         id: 7,
-        url: '/Video/Mochi.mp4',
+        url: '/tiktok-mobile-clone/Video/Mochi.mp4',
         desc: 'Mango mochi. Recipe linked in my bio.',
         song: 'Dolce Nonna - Wayne Jones & Amy Hayashi-Jones',
         liked: 2300000,
