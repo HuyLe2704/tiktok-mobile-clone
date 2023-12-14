@@ -1,7 +1,7 @@
 export const VideoLink = [
     {
         id: 1,
-        url: '/Video/Antony.mp4',
+        url: '/tiktok-mobile-clone/Video/Antony.mp4',
         desc: 'Is he really a Brazilian?',
         song: 'Original sound',
         liked: 32002,
@@ -10,7 +10,7 @@ export const VideoLink = [
     },
     {
         id: 2,
-        url: '/Video/Bananas.mp4',
+        url: '/tiktok-mobile-clone/Video/Bananas.mp4',
         desc: 'Cách trồng cây chuối',
         song: 'Night Of Piano Trí Thức Remix - Trends Music TikTok',
         liked: 11006,
@@ -19,7 +19,7 @@ export const VideoLink = [
     },
     {
         id: 3,
-        url: '/Video/CatBattle.mp4',
+        url: '/tiktok-mobile-clone/Video/CatBattle.mp4',
         desc: 'The last end cat funny',
         song: 'nhạc nền - Funny',
         liked: 19465,
@@ -28,7 +28,7 @@ export const VideoLink = [
     },
     {
         id: 4,
-        url: '/Video/HatsuneMikuPiano.mp4',
+        url: '/tiktok-mobile-clone/Video/HatsuneMikuPiano.mp4',
         desc: 'Nghe bài này nhớ hồi hay xem anime quáaa',
         song: 'Miku piano',
         liked: 29024,
@@ -37,7 +37,7 @@ export const VideoLink = [
     },
     {
         id: 5,
-        url: '/Video/WaifuCute.mp4',
+        url: '/tiktok-mobile-clone/Video/WaifuCute.mp4',
         desc: 'Một chút ngọt nhẹ với waifu',
         song: 'Waifu Cute song',
         liked: 1269872,
