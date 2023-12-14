@@ -62,4 +62,13 @@ export const VideoLink = [
         message: 10200,
         share: 443800,
     },
+    {
+        id: 8,
+        url: '/tiktok-mobile-clone/Video/Mochi.mp4',
+        desc: 'Mango mochi. Recipe linked in my bio.',
+        song: 'Dolce Nonna - Wayne Jones & Amy Hayashi-Jones',
+        liked: 3300000,
+        message: 20200,
+        share: 1243800,
+    },
 ];
