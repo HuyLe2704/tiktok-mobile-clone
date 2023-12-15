@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import classNames from 'classnames/bind';
 import styles from './Video.module.scss';
 import VideoFooter from '~/Component/VideoFooter';
@@ -6,7 +6,7 @@ import VideoSidebar from '../VideoSidebar';
 
 const cx = classNames.bind(styles);
 
-function Video({ url, song, desc, liked, message, share }) {
+const Video = ({ url, song, desc, liked, message, share }) => {
     const videoRefs = useRef();
     const [playing, setPlaying] = useState(false);
 
@@ -35,6 +35,6 @@ function Video({ url, song, desc, liked, message, share }) {
             </div>
         </>
     );
-}
+};
 
 export default Video;
